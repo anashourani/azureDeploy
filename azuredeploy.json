@@ -76,9 +76,9 @@
          "location":"Global",
          "properties":{
             "groupShortName":"[variables('NotifyShort')]",
-            "enabled":true,
-            "smsReceivers": "607222333",
-				"emailReceivers": "testtest@ttt.com"
+            "enabled":"true",
+	 	"smsReceivers": "607222333",
+		"emailReceivers": "testtest@ttt.com"
          }
       },
       {
