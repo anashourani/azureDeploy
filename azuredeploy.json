@@ -77,8 +77,12 @@
          "properties":{
             "groupShortName":"[variables('NotifyShort')]",
             "enabled":"true",
-	 	"smsReceivers": "607222333",
-		"emailReceivers": "testtest@ttt.com"
+	 	"emailReceivers": [
+               {
+                  "name": "anas_EmailAction",
+                  "emailAddress": "ahourani@mmcweb.com"
+               }
+            ]
          }
       },
       {
