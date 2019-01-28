@@ -3,12 +3,14 @@
    "contentVersion":"1.0.0.0",
    "parameters":{
       "clientName":{
+         "defaultValue": "CleintName",
          "type":"String",
          "metadata":{
             "description":"Client Name"
          }
       },
       "domain":{
+         "defaultValue": "google.com",
          "type":"String",
          "metadata":{
             "description":"Domain with out http:// or https://"
@@ -76,13 +78,7 @@
          "location":"Global",
          "properties":{
             "groupShortName":"[variables('NotifyShort')]",
-            "enabled":"true",
-	 	"emailReceivers": [
-               {
-                  "name": "anas_EmailAction",
-                  "emailAddress": "ahourani@mmcweb.com"
-               }
-            ]
+            "enabled":true
          }
       },
       {
